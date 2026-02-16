@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
-ruby '2.3.1'
+ruby '~> 3.3', '>= 3.3.8'
 
 gem 'sinatra', '>= 1.4'
-gem 'rails', '~> 4.2'
+gem 'rails', '~> 7.2.3'
 
 group :development, :test do
   gem 'cucumber', '2.0.0'
